@@ -8,7 +8,7 @@ class Person {
 
 const people = [
     new Person("BhadBhabie", true),
-    new Person("Ioper"),
+    new Person("Ioper", true),
     new Person("Dilph"),
     new Person("FinalForm"),
     new Person("Pools", true),
