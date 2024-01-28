@@ -1,0 +1,190 @@
+html {
+    background-color: rgb(30, 13, 48);
+    font-size: 2vw;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.honk-font {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
+
+h1 {
+    font-size: 5.2rem;
+    margin: 2vh auto 0 auto;
+    text-align: center;
+}
+
+h2 {
+    margin: 2vh auto 4vh auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: deeppink;
+    text-shadow: 4px 4px 2px black;
+}
+
+.grug {
+    /* display: inline; */
+    width: 32px;
+    height: 32px;
+    /* background-image: url("./images/grug.E.png"); */
+}
+
+.gruglord {
+    width: 64px;
+    height: 64px;
+}
+
+#container {
+    margin: auto;
+    width: 896px;
+    height: 128px;
+    background-image: url("./images/backdrp.png");
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.gcontainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 64px;
+}
+
+.gname {
+    font-size: .4rem;
+    color: rgb(255, 87, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    overflow-x: visible;
+}
+
+#support-btn {
+    font-size: 32px;
+    min-width: 140px;
+    min-height: 60px;
+    cursor: pointer;
+}
+
+#dark {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#modal {
+    position: absolute;
+    top: 10vh;
+    width: 80vw;
+    max-width: 560px;
+    border-radius: 25px;
+    height: 80vh;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(38, 16, 61);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    overflow-y: scroll;
+}
+
+#modal p {
+    width: 90%;
+}
+
+#modal button {
+    margin-bottom: 15px;
+}
+
+#modal-close-btn {
+    position: absolute;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bolder;
+    border: 2px solid black;
+    right: 6px;
+    top: 6px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.hidden {
+    display: none;
+}
+
+#modal.hidden {
+    display: none;
+}
+
+.modal-supp-btn {
+    margin-top: 40%;
+    width: 120px;
+    height: 60px;
+    cursor: pointer;
+}
+
+body p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: deeppink;
+    width: 50%;
+    margin: 1vh auto;
+    font-size: .5rem;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .grug {
+        width: 24px;
+        height: 24px;
+    }
+
+    .gruglord {
+        width: 40px;
+        height: 40px;
+    }
+
+    .gname {
+        font-size: 1rem;
+    }
+
+    #container {
+        width: 90vw;
+    }
+
+    body p {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+}
