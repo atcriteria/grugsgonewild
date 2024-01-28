@@ -22,5 +22,6 @@ const people = [
     new Person("Hobo"),
     new Person("JenovaImproved"),
     new Person("Gilape", true),
-    new Person("NewNagaRaga")
+    new Person("NewNagaRaga"),
+    new Person("Cajin")
 ]
