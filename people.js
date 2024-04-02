@@ -24,5 +24,8 @@ const people = [
     new Person("Gilape", true),
     new Person("NewNagaRaga"),
     new Person("Cajin"),
-    new Person("Shivali")
+    new Person("Shivali"),
+    new Person("Reg"),
+    new Person("Pamalamalam"),
+    new Person("Meatball", true)
 ]
